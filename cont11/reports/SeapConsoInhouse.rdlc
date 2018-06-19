@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>3.35069in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.57292in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.58681in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.57292in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.57292in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.57292in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.21875in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="dg">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!dg.Value</Value>
+                              <Style>
+                                <FontSize>8pt</FontSize>
+                                <FontWeight>=iif(Fields!Group_ID.Value = "2" or Fields!Group_ID.Value = "4" or Fields!Group_ID.Value = "6" or Fields!Group_ID.Value = "8"
+or Fields!Group_ID.Value = "10" or Fields!Group_ID.Value = "12" or Fields!Group_ID.Value = "14" or Fields!Group_ID.Value = "16"
+or Fields!Group_ID.Value = "18"  or Fields!Group_ID.Value = "24"
+or Fields!Group_ID.Value = "26" or Fields!Group_ID.Value = "28" or Fields!Group_ID.Value = "30" or Fields!Group_ID.Value = "32"
+or Fields!Group_ID.Value = "34" or Fields!Group_ID.Value = "35"
+
+, "Bold","Normal" )</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>dg</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>=iif(Fields!Group_ID.Value = "2" or Fields!Group_ID.Value = "4" or Fields!Group_ID.Value = "6" or Fields!Group_ID.Value = "8"
+or Fields!Group_ID.Value = "10" or Fields!Group_ID.Value = "12" or Fields!Group_ID.Value = "14" or Fields!Group_ID.Value = "16"
+or Fields!Group_ID.Value = "18"  or Fields!Group_ID.Value = "24"
+or Fields!Group_ID.Value = "26" or Fields!Group_ID.Value = "28" or Fields!Group_ID.Value = "30" or Fields!Group_ID.Value = "32"
+or Fields!Group_ID.Value = "34" or Fields!Group_ID.Value = "35"
+
+, "LightGrey","White" )</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Date">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Date.Value</Value>
+                              <Style>
+                                <FontSize>8pt</FontSize>
+                                <FontWeight>=iif(Fields!Group_ID.Value = "2" or Fields!Group_ID.Value = "4" or Fields!Group_ID.Value = "6" or Fields!Group_ID.Value = "8"
+or Fields!Group_ID.Value = "10" or Fields!Group_ID.Value = "12" or Fields!Group_ID.Value = "14" or Fields!Group_ID.Value = "16"
+or Fields!Group_ID.Value = "18"  or Fields!Group_ID.Value = "24"
+or Fields!Group_ID.Value = "26" or Fields!Group_ID.Value = "28" or Fields!Group_ID.Value = "30" or Fields!Group_ID.Value = "32"
+or Fields!Group_ID.Value = "34" or Fields!Group_ID.Value = "35"
+
+, "Bold","Normal" )</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Date</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>=iif(Fields!Group_ID.Value = "2" or Fields!Group_ID.Value = "4" or Fields!Group_ID.Value = "6" or Fields!Group_ID.Value = "8"
+or Fields!Group_ID.Value = "10" or Fields!Group_ID.Value = "12" or Fields!Group_ID.Value = "14" or Fields!Group_ID.Value = "16"
+or Fields!Group_ID.Value = "18"  or Fields!Group_ID.Value = "24"
+or Fields!Group_ID.Value = "26" or Fields!Group_ID.Value = "28" or Fields!Group_ID.Value = "30" or Fields!Group_ID.Value = "32"
+or Fields!Group_ID.Value = "34" or Fields!Group_ID.Value = "35"
+
+, "LightGrey","White" )</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Week">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Week.Value</Value>
+                              <Style>
+                                <FontSize>8pt</FontSize>
+                                <FontWeight>=iif(Fields!Group_ID.Value = "2" or Fields!Group_ID.Value = "4" or Fields!Group_ID.Value = "6" or Fields!Group_ID.Value = "8"
+or Fields!Group_ID.Value = "10" or Fields!Group_ID.Value = "12" or Fields!Group_ID.Value = "14" or Fields!Group_ID.Value = "16"
+or Fields!Group_ID.Value = "18"  or Fields!Group_ID.Value = "24"
+or Fields!Group_ID.Value = "26" or Fields!Group_ID.Value = "28" or Fields!Group_ID.Value = "30" or Fields!Group_ID.Value = "32"
+or Fields!Group_ID.Value = "34" or Fields!Group_ID.Value = "35"
+
+, "Bold","Normal" )</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Week</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>=iif(Fields!Group_ID.Value = "2" or Fields!Group_ID.Value = "4" or Fields!Group_ID.Value = "6" or Fields!Group_ID.Value = "8"
+or Fields!Group_ID.Value = "10" or Fields!Group_ID.Value = "12" or Fields!Group_ID.Value = "14" or Fields!Group_ID.Value = "16"
+or Fields!Group_ID.Value = "18"  or Fields!Group_ID.Value = "24"
+or Fields!Group_ID.Value = "26" or Fields!Group_ID.Value = "28" or Fields!Group_ID.Value = "30" or Fields!Group_ID.Value = "32"
+or Fields!Group_ID.Value = "34" or Fields!Group_ID.Value = "35"
+
+, "LightGrey","White" )</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Month">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Month.Value</Value>
+                              <Style>
+                                <FontSize>8pt</FontSize>
+                                <FontWeight>=iif(Fields!Group_ID.Value = "2" or Fields!Group_ID.Value = "4" or Fields!Group_ID.Value = "6" or Fields!Group_ID.Value = "8"
+or Fields!Group_ID.Value = "10" or Fields!Group_ID.Value = "12" or Fields!Group_ID.Value = "14" or Fields!Group_ID.Value = "16"
+or Fields!Group_ID.Value = "18"  or Fields!Group_ID.Value = "24"
+or Fields!Group_ID.Value = "26" or Fields!Group_ID.Value = "28" or Fields!Group_ID.Value = "30" or Fields!Group_ID.Value = "32"
+or Fields!Group_ID.Value = "34" or Fields!Group_ID.Value = "35"
+
+, "Bold","Normal" )</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Month</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>=iif(Fields!Group_ID.Value = "2" or Fields!Group_ID.Value = "4" or Fields!Group_ID.Value = "6" or Fields!Group_ID.Value = "8"
+or Fields!Group_ID.Value = "10" or Fields!Group_ID.Value = "12" or Fields!Group_ID.Value = "14" or Fields!Group_ID.Value = "16"
+or Fields!Group_ID.Value = "18"  or Fields!Group_ID.Value = "24"
+or Fields!Group_ID.Value = "26" or Fields!Group_ID.Value = "28" or Fields!Group_ID.Value = "30" or Fields!Group_ID.Value = "32"
+or Fields!Group_ID.Value = "34" or Fields!Group_ID.Value = "35"
+
+, "LightGrey","White" )</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Year">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Year.Value</Value>
+                              <Style>
+                                <FontSize>8pt</FontSize>
+                                <FontWeight>=iif(Fields!Group_ID.Value = "2" or Fields!Group_ID.Value = "4" or Fields!Group_ID.Value = "6" or Fields!Group_ID.Value = "8"
+or Fields!Group_ID.Value = "10" or Fields!Group_ID.Value = "12" or Fields!Group_ID.Value = "14" or Fields!Group_ID.Value = "16"
+or Fields!Group_ID.Value = "18"  or Fields!Group_ID.Value = "24"
+or Fields!Group_ID.Value = "26" or Fields!Group_ID.Value = "28" or Fields!Group_ID.Value = "30" or Fields!Group_ID.Value = "32"
+or Fields!Group_ID.Value = "34" or Fields!Group_ID.Value = "35"
+
+, "Bold","Normal" )</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Year</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>=iif(Fields!Group_ID.Value = "2" or Fields!Group_ID.Value = "4" or Fields!Group_ID.Value = "6" or Fields!Group_ID.Value = "8"
+or Fields!Group_ID.Value = "10" or Fields!Group_ID.Value = "12" or Fields!Group_ID.Value = "14" or Fields!Group_ID.Value = "16"
+or Fields!Group_ID.Value = "18"  or Fields!Group_ID.Value = "24"
+or Fields!Group_ID.Value = "26" or Fields!Group_ID.Value = "28" or Fields!Group_ID.Value = "30" or Fields!Group_ID.Value = "32"
+or Fields!Group_ID.Value = "34" or Fields!Group_ID.Value = "35"
+
+, "LightGrey","White" )</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="To_Date">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!To_Date.Value</Value>
+                              <Style>
+                                <FontSize>8pt</FontSize>
+                                <FontWeight>=iif(Fields!Group_ID.Value = "2" or Fields!Group_ID.Value = "4" or Fields!Group_ID.Value = "6" or Fields!Group_ID.Value = "8"
+or Fields!Group_ID.Value = "10" or Fields!Group_ID.Value = "12" or Fields!Group_ID.Value = "14" or Fields!Group_ID.Value = "16"
+or Fields!Group_ID.Value = "18"  or Fields!Group_ID.Value = "24"
+or Fields!Group_ID.Value = "26" or Fields!Group_ID.Value = "28" or Fields!Group_ID.Value = "30" or Fields!Group_ID.Value = "32"
+or Fields!Group_ID.Value = "34" or Fields!Group_ID.Value = "35"
+
+, "Bold","Normal" )</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>To_Date</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>=iif(Fields!Group_ID.Value = "2" or Fields!Group_ID.Value = "4" or Fields!Group_ID.Value = "6" or Fields!Group_ID.Value = "8"
+or Fields!Group_ID.Value = "10" or Fields!Group_ID.Value = "12" or Fields!Group_ID.Value = "14" or Fields!Group_ID.Value = "16"
+or Fields!Group_ID.Value = "18"  or Fields!Group_ID.Value = "24"
+or Fields!Group_ID.Value = "26" or Fields!Group_ID.Value = "28" or Fields!Group_ID.Value = "30" or Fields!Group_ID.Value = "32"
+or Fields!Group_ID.Value = "34" or Fields!Group_ID.Value = "35"
+
+, "LightGrey","White" )</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Details" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Left>0.10292in</Left>
+        <Height>0.21875in</Height>
+        <Width>6.22918in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <FontFamily>Times New Roman</FontFamily>
+          <TextAlign>Left</TextAlign>
+          <VerticalAlign>Middle</VerticalAlign>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>0.29167in</Height>
+    <Style />
+  </Body>
+  <Width>6.5in</Width>
+  <Page>
+    <PageHeader>
+      <Height>0.905in</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Textbox Name="Textbox21">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>VENUE</Value>
+                  <Style>
+                    <FontFamily>times New Roman</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox20</rd:DefaultName>
+          <Top>0.7175in</Top>
+          <Left>0.10292in</Left>
+          <Height>0.17708in</Height>
+          <Width>3.35069in</Width>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+            <TopBorder>
+              <Style>Solid</Style>
+            </TopBorder>
+            <BottomBorder>
+              <Style>Solid</Style>
+            </BottomBorder>
+            <LeftBorder>
+              <Style>Solid</Style>
+            </LeftBorder>
+            <RightBorder>
+              <Style>Solid</Style>
+            </RightBorder>
+            <BackgroundColor>LightBlue</BackgroundColor>
+            <VerticalAlign>Middle</VerticalAlign>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox22">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Date</Value>
+                  <Style>
+                    <FontFamily>times New Roman</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox20</rd:DefaultName>
+          <Top>0.7175in</Top>
+          <Left>3.4675in</Left>
+          <Height>0.17708in</Height>
+          <Width>0.57292in</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+            <TopBorder>
+              <Style>Solid</Style>
+            </TopBorder>
+            <BottomBorder>
+              <Style>Solid</Style>
+            </BottomBorder>
+            <LeftBorder>
+              <Style>Solid</Style>
+            </LeftBorder>
+            <RightBorder>
+              <Style>Solid</Style>
+            </RightBorder>
+            <BackgroundColor>LightBlue</BackgroundColor>
+            <VerticalAlign>Middle</VerticalAlign>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox23">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Week</Value>
+                  <Style>
+                    <FontFamily>times New Roman</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox20</rd:DefaultName>
+          <Top>0.7175in</Top>
+          <Left>4.04042in</Left>
+          <Height>0.17708in</Height>
+          <Width>0.58681in</Width>
+          <ZIndex>2</ZIndex>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+            <TopBorder>
+              <Style>Solid</Style>
+            </TopBorder>
+            <BottomBorder>
+              <Style>Solid</Style>
+            </BottomBorder>
+            <LeftBorder>
+              <Style>Solid</Style>
+            </LeftBorder>
+            <RightBorder>
+              <Style>Solid</Style>
+            </RightBorder>
+            <BackgroundColor>LightBlue</BackgroundColor>
+            <VerticalAlign>Middle</VerticalAlign>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox24">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Month</Value>
+                  <Style>
+                    <FontFamily>Times New Roman</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox20</rd:DefaultName>
+          <Top>0.7175in</Top>
+          <Left>4.62723in</Left>
+          <Height>0.17708in</Height>
+          <Width>0.57292in</Width>
+          <ZIndex>3</ZIndex>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+            <TopBorder>
+              <Style>Solid</Style>
+            </TopBorder>
+            <BottomBorder>
+              <Style>Solid</Style>
+            </BottomBorder>
+            <LeftBorder>
+              <Style>Solid</Style>
+            </LeftBorder>
+            <RightBorder>
+              <Style>Solid</Style>
+            </RightBorder>
+            <BackgroundColor>LightBlue</BackgroundColor>
+            <VerticalAlign>Middle</VerticalAlign>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox25">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Year</Value>
+                  <Style>
+                    <FontFamily>Times New Roman</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox20</rd:DefaultName>
+          <Top>0.7175in</Top>
+          <Left>5.20015in</Left>
+          <Height>0.17708in</Height>
+          <Width>0.57292in</Width>
+          <ZIndex>4</ZIndex>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+            <TopBorder>
+              <Style>Solid</Style>
+            </TopBorder>
+            <BottomBorder>
+              <Style>Solid</Style>
+            </BottomBorder>
+            <LeftBorder>
+              <Style>Solid</Style>
+            </LeftBorder>
+            <RightBorder>
+              <Style>Solid</Style>
+            </RightBorder>
+            <BackgroundColor>LightBlue</BackgroundColor>
+            <VerticalAlign>Middle</VerticalAlign>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox26">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>To Date</Value>
+                  <Style>
+                    <FontFamily>Times New Roman</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox20</rd:DefaultName>
+          <Top>0.7175in</Top>
+          <Left>5.77307in</Left>
+          <Height>0.17708in</Height>
+          <Width>0.57292in</Width>
+          <ZIndex>5</ZIndex>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+            <TopBorder>
+              <Style>Solid</Style>
+            </TopBorder>
+            <BottomBorder>
+              <Style>Solid</Style>
+            </BottomBorder>
+            <LeftBorder>
+              <Style>Solid</Style>
+            </LeftBorder>
+            <RightBorder>
+              <Style>Solid</Style>
+            </RightBorder>
+            <BackgroundColor>LightBlue</BackgroundColor>
+            <VerticalAlign>Middle</VerticalAlign>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox1">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>WEEK NO:</Value>
+                  <Style>
+                    <FontFamily>TIMes New Roman</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value>=Sum(Fields!Contract_Finance_Week_No.Value, "DataSet2")</Value>
+                  <Style>
+                    <FontFamily>TIMes New Roman</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox1</rd:DefaultName>
+          <Top>0.10292in</Top>
+          <Left>0.10292in</Left>
+          <Height>0.1875in</Height>
+          <Width>1.14583in</Width>
+          <ZIndex>6</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <TopBorder>
+              <Style>Solid</Style>
+            </TopBorder>
+            <BottomBorder>
+              <Style>Solid</Style>
+            </BottomBorder>
+            <LeftBorder>
+              <Style>Solid</Style>
+            </LeftBorder>
+            <RightBorder>
+              <Style>Solid</Style>
+            </RightBorder>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox2">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>DATE:</Value>
+                  <Style>
+                    <FontFamily>TIMes New Roman</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value>=Parameters!input.Value</Value>
+                  <Style>
+                    <FontFamily>TIMes New Roman</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox1</rd:DefaultName>
+          <Top>0.10292in</Top>
+          <Left>4.93973in</Left>
+          <Height>0.1875in</Height>
+          <Width>1.38542in</Width>
+          <ZIndex>7</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <TopBorder>
+              <Style>Solid</Style>
+            </TopBorder>
+            <BottomBorder>
+              <Style>Solid</Style>
+            </BottomBorder>
+            <LeftBorder>
+              <Style>Solid</Style>
+            </LeftBorder>
+            <RightBorder>
+              <Style>Solid</Style>
+            </RightBorder>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox3">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>DAY:</Value>
+                  <Style>
+                    <FontFamily>TIMes New Roman</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value>=WeekdayName(weekday(Parameters!input.Value))</Value>
+                  <Style>
+                    <FontFamily>TIMes New Roman</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox1</rd:DefaultName>
+          <Top>0.40563in</Top>
+          <Left>4.93973in</Left>
+          <Height>0.1875in</Height>
+          <Width>1.38542in</Width>
+          <ZIndex>8</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <TopBorder>
+              <Style>Solid</Style>
+            </TopBorder>
+            <BottomBorder>
+              <Style>Solid</Style>
+            </BottomBorder>
+            <LeftBorder>
+              <Style>Solid</Style>
+            </LeftBorder>
+            <RightBorder>
+              <Style>Solid</Style>
+            </RightBorder>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox4">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>SEAP BALI CONSOLIDATED </Value>
+                  <Style>
+                    <FontFamily>TIMes New Roman</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value>=UCase(Parameters!venue.Value)</Value>
+                  <Style>
+                    <FontFamily>TIMes New Roman</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value> IN US $</Value>
+                  <Style>
+                    <FontFamily>TIMes New Roman</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox1</rd:DefaultName>
+          <Top>0.40563in</Top>
+          <Left>0.10292in</Left>
+          <Height>0.1875in</Height>
+          <Width>3.11458in</Width>
+          <ZIndex>9</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <TopBorder>
+              <Style>Solid</Style>
+            </TopBorder>
+            <BottomBorder>
+              <Style>Solid</Style>
+            </BottomBorder>
+            <LeftBorder>
+              <Style>Solid</Style>
+            </LeftBorder>
+            <RightBorder>
+              <Style>Solid</Style>
+            </RightBorder>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageHeader>
+    <PageHeight>26in</PageHeight>
+    <PageWidth>8in</PageWidth>
+    <LeftMargin>0.75in</LeftMargin>
+    <RightMargin>0.25in</RightMargin>
+    <TopMargin>0.5in</TopMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="ContractAppDataSet">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>f811afbc-6cf2-4b39-89d3-947abb4df5d2</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>ContractAppDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Group_ID">
+          <DataField>Group_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="dg">
+          <DataField>dg</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Date">
+          <DataField>Date</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Week">
+          <DataField>Week</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Month">
+          <DataField>Month</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Year">
+          <DataField>Year</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="To_Date">
+          <DataField>To_Date</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="gvenue">
+          <DataField>gvenue</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="orders">
+          <DataField>orders</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>ContractAppDataSet</rd:DataSetName>
+        <rd:SchemaPath>D:\contract website\App_Code\ContractAppDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>SeapConsoInhouse</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>SeapConsoInhouseTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="DataSet2">
+      <Query>
+        <DataSourceName>ContractAppDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="daypart">
+          <DataField>daypart</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Contract_Finance_Week_No">
+          <DataField>Contract_Finance_Week_No</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>ContractAppDataSet</rd:DataSetName>
+        <rd:SchemaPath>D:\contract website\App_Code\ContractAppDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>seapdate</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>seapdateTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <ReportParameters>
+    <ReportParameter Name="input">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="country">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="venue">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>d0ed243f-6746-43ee-bbfa-7cea0459b43e</rd:ReportID>
+</Report>
